@@ -1,0 +1,59 @@
+body {
+    margin: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden
+}
+
+/* top navigation bar*/
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.topnav a {
+    float: left;
+    color: #1488acab;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+.topnav a:hover {
+    background-color: red;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #ffd600 ;
+    color: black;
+}
+
+.topnav a.logotype {
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* bottom navigation bar, social media buttons*/
+.botnav {
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+.botnav a {
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.botnav a:hover {
+    background-color: black;
+    color: white;
+}
